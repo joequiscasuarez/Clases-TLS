@@ -1,0 +1,39 @@
+/* ================================= 
+  Button Transitions
+==================================== */
+
+.button {
+	transition: background .3s;
+}
+.button:hover {
+	background: rgba(74,137,202, 1);
+}
+
+/* ================================= 
+  Photo 3D Transforms & Transitions
+==================================== */
+
+.content {
+	perspective: 700px;
+}
+
+/*.content-3d .photo {
+	transform: rotateX(-5deg);
+}*/
+
+.content .photo {
+	transition: transform 1s ease-out;
+	transform-style: preserve-3d;
+}
+
+.content .photo:hover {
+	transform: rotateY(-180deg);
+}
+
+.content .photo .side-a, .content .photo .side-b {
+	backface-visibility: hidden;
+}
+
+.content .photo .side-b {
+	transform: rotateY(180deg);
+}

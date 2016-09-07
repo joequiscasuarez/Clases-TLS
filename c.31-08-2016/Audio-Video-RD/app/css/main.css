@@ -1,0 +1,161 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1000px;
+	padding:50px 0;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+
+form {
+  width: 66%;
+  margin: 0 auto; }
+
+fieldset {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 20px;
+	margin-right: 10px;
+}
+
+
+legend {
+	font-size: 2em;
+	text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin: 50px 0;
+}
+
+label {
+  font-family: "Source Sans Pro", sans-serif !important; }
+
+.dark {
+  background: #1a252e; }
+
+.audio-video {
+  width: 700px;
+  margin: 0 auto;
+}  
+
+.button {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(26, 37, 46, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  color: white; }
+  .button.medium {
+    padding: 10px; }
+  .button.blue {
+    border: 1px solid #02A2E5;
+    background: #007EEE; }
+  .button.white {
+    background: white;
+    color: #007EEE; }
+
+.contact {
+  color: white; }
+  .contact label {
+    padding-left: 20px;
+    margin-bottom: 15px; }
+  .contact i {
+    display: block; }
+  .contact .fa::before {
+    position: absolute;
+    top: 7px; }
+
+.contact-btn {
+  font-size: 1em;
+  margin: 30px auto;
+  display: block; }
+  .contact-btn:hover {
+    background: white;
+    color: #02A2E5;
+    cursor: pointer; }
+
+.input-wrap {
+  margin: 30px 0;
+  position: relative; }
+  .input-wrap label, .input-wrap textarea, 
+  .input-wrap input[type="text"],
+  .input-wrap input[type="password"],
+  .input-wrap input[type="url"],
+  .input-wrap input[type="email"],
+  .input-wrap input[type="number"], 
+  .input-wrap input[type="date"]{
+    display: block;
+    width: 100%; }
+  .input-wrap label {
+    font-size: 1.5em; }
+  .input-wrap input {
+    padding: 15px 15px 15px 35px;
+    background: #eee;
+  }
+
+  .input-wrap input[type="color"] {
+    padding: 0;
+  }
+
+  .input-wrap input:required {
+    background: pink;
+  }
+
+	.input-wrap input[type="text"]:focus,
+  .input-wrap input[type="password"]:focus,
+  .input-wrap input[type="email"]:focus {
+  	background-color: #fff; }
+
+  .input-wrap input[type="text"]:valid,
+  .input-wrap input[type="password"]:valid,
+  .input-wrap input[type="email"]:valid,
+  .input-wrap input[type="url"]:valid {
+  	background-image: url(../multimedia/img/check.svg);
+  	background-repeat: no-repeat;
+  	background-size: 20px;
+    background-position: 10px 12px;
+     }
+
+	.input-wrap input[type="text"]:invalid:not(:focus),
+  .input-wrap input[type="password"]:invalid:not(:focus),
+  .input-wrap input[type="email"]:invalid:not(:focus),
+  .input-wrap input[type="url"]:invalid:not(:focus) {
+  	background-image: url(../multimedia/img/Icon-x.svg);
+    background-repeat: no-repeat;
+    background-size: 20px; 
+    background-position: 10px 12px; }
+  }
+
+
+
+  .input-wrap input, .input-wrap textarea {
+    border-radius: 6px;
+    margin-bottom: 7px;
+    border: none; }
+  
+  .input-wrap .textarea {
+    resize: none;
+    height: 100px;
+    padding: 11px 13px; }
+
+.padre {
+  width: 960px;
+  background: red;
+  height: 500px;
+}
+
+.padre .hijo {
+  width: 700px;
+  height: 300px;
+  margin: 0px auto;
+  background: green;
+}

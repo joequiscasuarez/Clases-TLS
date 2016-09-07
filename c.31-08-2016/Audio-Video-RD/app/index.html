@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplos de clase 31-08-2016</title>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	<section class="contact dark">
+		<div class="container">
+			<section class="formularios">
+				<h1>Formulario</h1>
+				<form>
+					<fieldset>
+					<legend>Login</legend>
+					<div class="input-wrap">
+						<i class="fa fa-users"></i>	
+						<label for="Nombre">Usuario</label>
+						<input type="text" name="nombre" required placeholder="Escribe aquí tu usuario" pattern="[a-z]{2,15}" title="Tu nombre de usuario tiene que ser mínimo de 2 caracteres y todo en minúscula" />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-envelope-o"></i>
+						<label for="Email">Email</label>
+						<input type="email" name="email" required placeholder="ejemplo@correo.com" />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-ellipsis-h"></i>
+						<label for="Asunto">Contraseña</label>
+						<input type="password" required />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-ellipsis-h"></i>
+						<label for="Asunto">Color</label>
+						<input type="color" name="color" />
+					</div>
+					</fieldset>
+
+					<fieldset>
+					<legend>Datos</legend>
+					<div class="input-wrap">
+						<i class="fa fa-users"></i>	
+						<label for="Nombre">Nombres y Apellidos</label>
+						<input type="text" name="nombre" required />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-envelope-o"></i>
+						<label for="Email">Teléfono</label>
+						<input type="number" name="email" />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-ellipsis-h"></i>
+						<label for="Asunto">Cumpleaños</label>
+						<input type="date" name="birthdays" />
+					</div>
+
+					<div class="input-wrap">
+						<i class="fa fa-ellipsis-h"></i>
+						<label for="Url">Url</label>
+						<input type="url" name="url" required>
+					</div>
+
+					</fieldset>
+			
+					<input type="submit" name="submit" value="Enviar" class="button blue medium contact-btn">
+
+				</form>
+			</section>
+
+			<section class="audio-video dark">
+				<h1>Video y Audio</h1>
+				<div class="video-wrap">
+					<video width="700" autoplay controls muted loop poster="multimedia/img/poster-video.png">
+						<source src="multimedia/video/dragonite-sample-video.mp4" />
+						<source src="multimedia/video/dragonite-sample-video.ogv" />
+						<source src="multimedia/video/dragonite-sample-video.webm" />
+					</video>
+				</div>
+
+				<div class="audio-wrap">
+					<audio autoplay controls muted loop>
+						<source src="multimedia/audio/audio-sample.mp3" />
+						<source src="multimedia/audio/audio-sample.ogg" />
+						<source src="multimedia/audio/audio-sample.wav" />
+					</audio>
+				</div>
+			</section>
+
+			<section class="rd dark">
+				<div class="container">
+					<div class="padre">
+						<div class="hijo"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+	</body>
+</html>
+
+ 
